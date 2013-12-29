@@ -10,4 +10,5 @@ Things to be done :
 
 For screenshots and details on this demo visit :
 
+http://myandroidtuts.blogspot.in/2013/12/android-card-layout.html
 
