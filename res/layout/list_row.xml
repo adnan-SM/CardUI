@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Dog Tag"
+        android:text="Our Text"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#040404"
         android:textStyle="bold"
@@ -29,7 +29,7 @@
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create an NFC Pet Tag"
+        android:text="Description Text"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </LinearLayout>
