@@ -54,6 +54,7 @@ public class LazyAdapter extends ArrayAdapter<RowItem> {
         Animation animation = AnimationUtils.loadAnimation(context, R.anim.card_animation);
         holder.card.startAnimation(animation);
         
+        
         return convertView;
     }
 }
