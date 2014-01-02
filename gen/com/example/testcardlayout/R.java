@@ -8,6 +8,9 @@
 package com.example.testcardlayout;
 
 public final class R {
+    public static final class anim {
+        public static final int card_animation=0x7f040000;
+    }
     public static final class attr {
     }
     public static final class drawable {
@@ -19,23 +22,33 @@ public final class R {
         public static final int spidy=0x7f020005;
     }
     public static final class id {
-        public static final int description=0x7f070003;
-        public static final int list_image=0x7f070001;
-        public static final int menu_settings=0x7f070004;
-        public static final int myList=0x7f070000;
-        public static final int title=0x7f070002;
+        public static final int card=0x7f0a0001;
+        public static final int description=0x7f0a0004;
+        public static final int list_image=0x7f0a0002;
+        public static final int menu_settings=0x7f0a0005;
+        public static final int myList=0x7f0a0000;
+        public static final int title=0x7f0a0003;
+    }
+    public static final class integer {
+        public static final int card_flip_time_full=0x7f060001;
+        public static final int card_flip_time_half=0x7f060002;
+        public static final int card_flip_time_max=0x7f060000;
+    }
+    public static final class interpolator {
+        public static final int decelerate_cubic=0x7f050000;
+        public static final int decelerate_quint=0x7f050001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int list_row=0x7f030001;
     }
     public static final class menu {
-        public static final int activity_main=0x7f060000;
+        public static final int activity_main=0x7f090000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
+        public static final int app_name=0x7f070000;
+        public static final int hello_world=0x7f070001;
+        public static final int menu_settings=0x7f070002;
     }
     public static final class style {
         /** 
@@ -59,10 +72,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f080001;
     }
 }
