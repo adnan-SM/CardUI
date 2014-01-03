@@ -3,10 +3,11 @@ CardUI
 
 The source code for Card Layout. This project tries to replicate the the latest Card UI in Android. This project does not utilize any libraries for creating the CARD Layout. 
 
-Things to be done :
+Updated with 9 patch images and colored border cards. Keep a watch here, will add GridView support soon.
 
-1. Refactor code for better performance
-2. Use a 9patch image as the background instead of card_background.xml
+Usage :
+
+Apply it as background to your list item. Check the drawables folder to find the various card layouts available. Choose the one which you like !
 
 For screenshots and details on this demo visit :
 
