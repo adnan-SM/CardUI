@@ -2,35 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/card_background"
+    android:background="@drawable/card_white"
     android:orientation="vertical"
     android:padding="2dp" 
     android:id="@+id/card">
 
+       <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Dog Tag"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
     <ImageView
         android:id="@+id/list_image"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:layout_weight="0.04"
         android:scaleType="fitXY"
+        android:layout_margin="2dp"
         android:src="@drawable/dhoom" />
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Our Text"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#040404"
-        android:textStyle="bold"
-        android:typeface="sans" />
+
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Description Text"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:text="Create an NFC Pet Tag"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>
