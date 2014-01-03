@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
                 ActionBar actionBar = getActionBar();
                 actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#33b5e5" )));
                 
-                ListView lv = (ListView) findViewById(R.id.myList);
+                GridView grid = (GridView) findViewById(R.id.myGrid);
                  rowItems = new ArrayList<RowItem>();
                  
                 String[] titles = {"Movie1","Movie2","Movie3","Movie4","Movie5","Movie6","Movie7","Movie8"};
@@ -54,9 +54,9 @@ public class MainActivity extends Activity {
 
                 // Set the adapter on the ListView
                 LazyAdapter adapter = new LazyAdapter(getApplicationContext(), R.layout.grid_row, rowItems);
-                lv.setAdapter(adapter);
+                grid.setAdapter(adapter);
                 
-                lv.setOnItemSelectedListener(new OnItemSelectedListener() {
+                grid.setOnItemSelectedListener(new OnItemSelectedListener() {
 
                                 @Override
                                 public void onItemSelected(AdapterView<?> arg0, View arg1,
