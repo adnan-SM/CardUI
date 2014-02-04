@@ -13,3 +13,7 @@ For screenshots and details on this demo visit :
 
 http://myandroidtuts.blogspot.in/2013/12/android-card-layout.html
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/adnan-SM/cardui/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
